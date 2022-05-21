@@ -1,0 +1,8 @@
+#mainbody{background-color: black;color: white;}
+h1,h2,h3{text-align: center;}
+.img2,#img3,#img4{
+    height: 400px;width: 600px;display: block; margin-left: auto;margin-right: auto;
+}
+#img1{height: 600px;width: 800px;display: block; margin-left: auto;margin-right: auto;}
+.facts{margin-left: 20%;}
+p{width: 800px;display: block; margin-left:auto; margin-right: auto;}
