@@ -29,3 +29,35 @@ h1,h2,h3{text-align: center;color:lightblue ;}
 .facts{margin-left: 20%;}
 p{width: 800px;display: block; margin-left:auto; margin-right: auto;}
 #blastar{text-decoration:none; color: rgb(98, 203, 238);}
+
+/*iphonex*/
+@media only screen and (min-device-width:375px) and (max-device-width:812px)
+and (-webkit-min-device-pixel-ratio:3){#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+    #navbar1 { float: left;}
+    ul{position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;}
+    
+    #navbar11 {display: block;
+        color: white;
+        text-align: center;
+        padding: 5px 8px;
+        text-decoration: none;}
+
+        h1{padding-top: 4px; text-decoration: underline white;}
+        h1,h2,h3{text-align: center; color:lightblue ;}
+        h3{width: 300px; margin: auto; padding 20px:}
+        .img2,#img3,#img4{
+            height: 120px;width: 200px;display: block; margin-left: auto;margin-right: auto;border: 10px solid white;
+        }
+        #img1{height: 150px;width: 200px; padding: 10px; display: block; margin-left: auto;margin-right: auto;border: 5px solid grey;padding-top: 10px;}
+        
+        p{width: 200px;display: block; margin-left:auto; margin-right:auto ;}
+        a{text-decoration: underline; color: rgb(98, 203, 238);}
+        #facts{margin: auto;}
+}
