@@ -20,10 +20,11 @@
   li a:hover {
     background-color: #111;
   }
+h1{padding-top: 10px; text-decoration: underline white;}
 h1,h2,h3{text-align: center;color:lightblue ;}
 .img2,#img3,#img4{
     height: 400px;width: 600px;display: block; margin-left: auto;margin-right: auto;border: 20px solid white;
 }
-#img1{height: 600px;width: 800px;display: block; margin-left: auto;margin-right: auto;border: 10px solid grey;}
+#img1{height: 600px;width: 800px;padding: 20px; display: block; margin-left: auto;margin-right: auto;border: 10px solid grey;}
 .facts{margin-left: 20%;}
 p{width: 800px;display: block; margin-left:auto; margin-right: auto;}
